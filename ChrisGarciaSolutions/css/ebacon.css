@@ -1,0 +1,31 @@
+:root {
+  --bacon-pink: rgba(247,174,186,1); /* Global variable */
+  --dark-pink: rgba(240,102,126,1); /* Global variable */
+  --background-blue: #e6f0f6; /* Global variable */
+}
+
+body {
+    background-color: var(--background-blue);
+
+    #content {
+        background: white;
+        border: 2px solid var(--dark-pink);
+        border-radius: 20px;
+        box-shadow: 0px 1px 11px 1px var(--bacon-pink);
+        -webkit-box-shadow: 0px 1px 11px 1px var(--bacon-pink);
+        -moz-box-shadow: 0px 1px 11px 1px var(--bacon-pink);
+        font-family: Arial, Helvetica, sans-serif;
+        height: 80vh;
+        margin: 40px auto;
+        padding: 15px;
+        width: 80vw;
+
+        h1 {
+            color: var(--dark-pink);
+            font-size: 40px;
+            margin: 0 auto;
+            text-align: center;
+            text-decoration: underline;
+        }
+    }
+}
