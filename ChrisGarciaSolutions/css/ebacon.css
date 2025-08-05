@@ -4,10 +4,12 @@
   --background-blue: #e6f0f6; /* Global variable */
 }
 
+
+/* Desktop */
 body {
     background-color: var(--background-blue);
 
-    #content {
+    .content {
         background: white;
         border: 2px solid var(--dark-pink);
         border-radius: 20px;
@@ -38,18 +40,35 @@ body {
             padding: 10px 25px;
             width: 90%;
 
+            h3 {
+                color: var(--dark-pink);
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            span {
+                display: block;
+                line-height: 30px;
+                font-size: 13px;
+                letter-spacing: 1.3px;
+                color: var(--dark-pink);
+            }
+        }
+
+        &.punches {
             .employee-container {
                 padding: 0 35px;
                 width: 33%;
+            }  
+        }
 
-                h3 {
-                    color: var(--dark-pink);
-                    font-size: 25px;
-                }
-
-                p {
-                    font-size: 15px;
-                }
+        &.benefits {
+            .employee-container {
+                padding: 0 35px;
+                width: 50%;
             }
         }
     }
