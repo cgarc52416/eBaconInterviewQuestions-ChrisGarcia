@@ -1,0 +1,19 @@
+{
+    "jobMeta": [
+        {
+            "job": "Hospital - Painter",
+            "rate": 31.25,
+            "benefitsRate": 1
+        },
+        {
+            "job": "Hospital - Laborer",
+            "rate": 20.0,
+            "benefitsRate": 0.5
+        },
+        {
+            "job": "Shop - Laborer",
+            "rate": 16.25,
+            "benefitsRate": 1.25
+        }
+    ]
+}

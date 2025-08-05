@@ -1,0 +1,47 @@
+{
+    "BenefitAllocations": [
+      {
+        "employee": "Steve",
+        "BenefitPercent": [
+          {
+            "k401": 50,
+            "FSA": 20,
+            "HSA": 10,
+            "Dental": 20
+          }
+        ]
+      },
+      {
+        "employee": "Alex",
+        "BenefitPercent": [
+          {
+            "k401": 88,
+            "FSA": 12
+          }
+        ]
+      }
+    ],
+    "InvestmentAllocations": [
+      {
+        "employee": "Steve",
+        "InvestmentsPercent": [
+          {
+            "APPL": 25,
+            "TSLA": 25,
+            "MSFT": 25,
+            "GME": 25
+          }
+        ]
+      },
+      {
+        "employee": "Alex",
+        "InvestmentsPercent": [
+          {
+            "TSLA": 33,
+            "ADBE": 33,
+            "GME": 34
+          }
+        ]
+      }
+    ]
+  }
