@@ -53,13 +53,13 @@ const processBenefits = async (empCompOb, employeeList, key) => {
                     total: roundTotals(empCompOb[key].benefitTotal),
                     k401: roundTotals(bPercent401k),
                     fsa: roundTotals(bPercentFSA),
-                    hsa: roundTotals(bPercentHSA ? bPercentHSA : 0),
-                    dental: roundTotals(bPercentDental ? bPercentDental : 0),
-                    appl: roundTotals(kPercentAPPL ? kPercentAPPL : 0),
-                    tsla: roundTotals(kPercentTSLA ? kPercentTSLA : 0),
-                    msft: roundTotals(kPercentMSFT ? kPercentMSFT : 0),
-                    gme: roundTotals(kPercentGME ? kPercentGME : 0),
-                    adbe: roundTotals(kPercentADBE ? kPercentADBE : 0)
+                    hsa: roundTotals(bPercentHSA || 0),
+                    dental: roundTotals(bPercentDental || 0),
+                    appl: roundTotals(kPercentAPPL || 0),
+                    tsla: roundTotals(kPercentTSLA || 0),
+                    msft: roundTotals(kPercentMSFT || 0),
+                    gme: roundTotals(kPercentGME || 0),
+                    adbe: roundTotals(kPercentADBE || 0)
                 };
 
                 $(".content.benefits #employees").append(`
